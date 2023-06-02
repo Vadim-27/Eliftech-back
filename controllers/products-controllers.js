@@ -6,7 +6,7 @@ const getProduct = async (req, res) => {
 
   const result = await Products.find({ shop });
   console.log("result: ", result);
-  res.json(result);
+  return res.json(result);
 };
 
 const getProductById = async (req, res) => {

@@ -26,3 +26,5 @@ productSchema.post("save", handleMongooseError);
 const Products = model("products", productSchema);
 
 module.exports = { Products };
+
+
